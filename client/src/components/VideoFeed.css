@@ -1,0 +1,41 @@
+.video-feed {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.empty-feed {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--text-secondary);
+}
+
+.empty-feed h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: var(--text-primary);
+}
+
+.empty-feed p {
+  font-size: 1rem;
+}
+
+.error-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.load-more {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+@media (max-width: 768px) {
+  .video-feed {
+    padding: 10px;
+  }
+}
